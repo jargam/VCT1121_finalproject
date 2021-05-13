@@ -3,10 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>J&G Railways</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>J&G Railways©</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <style>
+        #minny, #stpaul, #stcloud, #rochester {
+            position: relative;
+            /* display: inline-block; */
+            z-index: 1;
+        }
+        .svg1 {
+            position: absolute;
+            top: -10px;
+            left: -10px;
+            z-index: 0;
+            stroke-dasharray: 1450;
+            stroke-dashoffset: 1450;
+            /* transition: all 5s; */
+            opacity: 0;
+            fill:rgb(0, 0, 255);
+            stroke-width:12;
+            stroke:rgb(255, 255, 255)
+        }
+        
+        a:hover .svg1{
+              /* stroke-dasharray: 0; 
+              opacity: 1; */
+               animation: 2s box-outline forwards;
+        }
+
+        @keyframes box-outline {
+            from {
+                stroke-dashoffset: 1450;
+                opacity: 0;
+                fill: none;
+            }
+            to {
+                stroke-dashoffset: 0;
+                opacity: 1;
+                fill: blue;
+            }
+        }
+    </style>
 </head>
 <body>
     
+    <div class="maindiv">
+        <header>
+            <!-- <div class="wrapper1">
+                <p id="one"></p>
+            </div> -->
+            <h1>J&G Railways</h1>
+        </header>
+        <section id="maincontent">
+        <figure class="home" style="position: absolute; left: 125px; top: 120px;">
+            <a href="./final-demo/minnpls.html">
+                <img id="minny" alt="minneapolis" src="images/minny.jpg" width="400px;" height="250px;">
+                <figcaption>Minneapolis</figcaption>
+                <svg class="svg1" width="430" height="280">
+                    <rect width="430" height="280"></rect>
+                    
+                </svg>
+            </a>
+        </figure>
+        <figure class="home" style="position: relative; left: 800px; top: 46px;">
+            <a href="./final-demo/saintpaul.html">
+                <img id="stpaul" alt="stpaul" src="images/stpaul.jpg" width="400px;" height="250px;">
+                <figcaption>St. Paul</figcaption>
+                <svg class="svg1" width="430" height="280">
+                    <rect width="430" height="280"></rect>
+                    
+                </svg>
+            </a>
+        </figure>
+        <figure class="home" style="position: relative; left: 125px; top: 75px;">
+            <a href="./final-demo/saintcloud.html">
+                <img id="stcloud" alt="stcloud" src="images/stcloud.jpeg" width="400px;" height="250px;">
+                <figcaption>St. Cloud</figcaption>
+                <svg class="svg1" width="430" height="280">
+                    <rect width="430" height="280"></rect>
+                    
+                </svg>
+            </a>
+        </figure>
+        <figure class="home" style="position: relative; left: 800px; top: -207px;">
+            <a href="/final-demo/rochester.html">
+                <img id="rochester" alt="rochester" src="images/roch.jpg" width="400px;" height="250px;">
+                <figcaption>Rochester</figcaption>
+                <svg class="svg1" width="430" height="280">
+                    <rect width="430" height="280"></rect>
+                    
+                </svg>
+            </a>
+        </figure>
+         </section>
+    </div>
+   
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/ScrollTrigger.min.js"></script>
+    <script src="js/TextPlugin.min.js"></script>
+    <script src="js/SplitText.min.js"></script>
+    <script src="js/DrawSVGPlugin.min.js"></script>
+    <script src="js/GSDevTools.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 </html>

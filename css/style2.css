@@ -1,0 +1,290 @@
+*, body, html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+figcaption {
+  margin-top: 10px;
+}
+
+header {
+  height: 75px;
+  width: 100%;
+  background-color: #A49D8C;
+}
+
+h1 {
+  color: #D9D4CC;
+  font-size: 60px;
+  margin: auto;
+  text-align: center;
+  position: relative;
+}
+
+h2 {
+  width: 30vw;
+  color: #453A2F;
+  font-size: 50px;
+  font-style: italic;
+  margin-left: 40px;
+  overflow: auto;
+}
+
+img {
+  border: 5px solid #A49D8C;
+  caption-side: bottom;
+  margin: auto;
+  left: 0px;
+}
+
+iframe {
+  margin: auto;
+  table-layout: auto;
+}
+
+p {
+  color: #117eab;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+label, legend, figcaption {
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-transform: uppercase;
+}
+
+input[type=text], input[type=email], #comments {
+  width: 300px;
+  /* width: 45%; */
+  padding: 2px;
+  margin: 0.25em 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 4px;
+  background-color: honeydew;
+  resize: none;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+input[type=submit] {
+  /* width: 8%; */
+  padding: .75em 1em;
+  text-transform: uppercase;
+  font-size: 1.25em;
+  border-radius: 0.5em;
+  color: #fff;
+  background-color: #117eab;
+  -webkit-transition: "background-color" 1s ease-in-out;
+  transition: "background-color" 1s ease-in-out;
+}
+
+input[type=submit]:hover {
+  background-color: navy;
+}
+
+input[type=radio] {
+  /* width: 8%; */
+  padding: 2px;
+}
+
+form {
+  background-color: #A49D8C;
+  padding: 0 1em 1em;
+}
+
+table {
+  padding: 0px;
+  background-color: #D7D0B8;
+  border: 7px solid white;
+  overflow: hidden;
+}
+
+caption {
+  width: 50vw;
+  overflow: hidden;
+}
+
+/* tunji edits */
+ul#radioBtn {
+  margin-left: 1em;
+  list-style: none;
+}
+
+ul#radioBtn li span {
+  /* color: red; */
+  margin: 0.5em;
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+ul#radioBtn li input {
+  margin-right: 1em;
+}
+
+section#contact div form table {
+  border: none;
+  padding: 1.25em;
+  border-radius: 0.5em;
+  /* margin-top: 1em; */
+}
+
+section#contact div h2, section#contact div p {
+  padding-left: 24px;
+}
+
+section#contact div p {
+  padding-bottom: 0.5em;
+}
+
+footer {
+  display: none;
+  position: relative;
+  /* bottom: 0; */
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 180px;
+  background-color: #A49D8C;
+  padding: 12px 2em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.footerImg {
+  width: 133px;
+  height: 96px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100px;
+          flex: 1 1 100px;
+}
+
+body {
+  overflow: scroll;
+}
+
+#content, #maincontent {
+  width: 100vw;
+  height: 100%;
+  /* height: 100vh; */
+  background-color: #D7D0B8;
+}
+
+button {
+  padding: .5em .75em;
+  text-transform: uppercase;
+  font-size: 1em;
+  border-radius: 0.5em;
+  color: #fff;
+  background-color: teal;
+  margin-left: 40px;
+}
+
+section#maincontent {
+  background-color: #D7D0B8;
+}
+
+figcaption {
+  margin-left: 150px;
+}
+
+table.price {
+  border-color: #A49D8C;
+  background-color: #D9D4CC;
+}
+
+a:visited {
+  clear: both;
+}
+
+iframe, img.caption {
+  margin-left: 50px;
+  list-style: none;
+  overflow: hidden;
+}
+
+ul {
+  margin-left: 75px;
+  list-style: none;
+}
+
+li {
+  text-align: inherit;
+  font-style: italic;
+}
+
+img.caption {
+  border-style: none;
+}
+
+.footerImg {
+  border-color: #D9D4CC;
+}
+
+h2.h2 {
+  text-align: center;
+  margin-right: 140px;
+}
+
+h3.h2 {
+  text-align: center;
+}
+
+footer#contactftr {
+  background-color: #D7D0B8;
+  border-color: #A49D8C;
+}
+
+h1 a:visited {
+  color: #D9D4CC;
+}
+
+div.maindiv {
+  margin: 0;
+}
+
+td {
+  text-align: center;
+}
+
+caption {
+  font-size: 25px;
+  font-style: italic;
+}
+
+#information {
+  width: 20vw;
+}
+
+/*new*/
+.wrapper1 {
+  width: 100%;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-family: Kanit;
+  color: white;
+  margin: 0;
+  font-size: 19px;
+}
+/*# sourceMappingURL=style2.css.map */
